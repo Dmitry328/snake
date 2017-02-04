@@ -47,6 +47,12 @@ namespace Snake
             }
         }
 
+        public void Clear()
+        {
+            sim = ' ';
+            Drow();
+        }
+
         public void Drow()
         {
             Console.SetCursorPosition(x, y);
